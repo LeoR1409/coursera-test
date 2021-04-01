@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+}
+
+/* Cajones de subtitulos */
+
+#uno {
+    background-color: #e9a2a2;
+}
+
+#dos {
+    background-color: #da3e3b;
+}
+
+#tres {
+    background-color: #d8c48b;
+}
+
+/* Titulo */
+
+h1 {
+    margin: 30px auto 30px auto;
+    text-align: center;
+}
+
+/* Caja de texto global */
+
+.cajita {
+    background-color: #999999;
+    border: 1px solid black;
+}
+
+/* Clase de subtitulos */
+
+.subtitulo {
+    font-size: 20px;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/* Parrafo lorem */
+
+.texto {
+    margin: 10px;
+}
+
+/* Navegador */
+
+@media (min-width:1325px) {
+
+    .cajita {    
+        width: 30%;
+        height: 20%;
+    }
+
+    #uno {
+        position: relative;
+        left: 78%;
+    }
+    
+    #dos {
+        position: relative;
+        left:  78%;
+    }
+    
+    #tres {
+        position: relative;
+        left:  78%;
+    }
+
+    #c1 {
+        position: absolute; 
+        left: 2%;
+    }
+
+    #c2{
+        position: absolute; 
+        left: 34.5%;
+    }
+
+    #c3{
+        position: absolute;  
+        left: 67%;
+    }
+}
+
+/* Navegador 2 */
+@media (min-width:992px) and (max-width: 1324px){
+
+    .cajita {    
+        width: 30%;
+        height: 20%;
+    }
+
+    #uno {
+        position: relative;
+        left: 76.5%;
+    }
+    
+    #dos {
+        position: relative;
+        left: 76.5%;
+    }
+    
+    #tres {
+        position: relative;
+        left: 76.5%;
+    }
+
+    #c1 {
+        position: absolute; 
+        left: 2%;
+    }
+
+    #c2{
+        position: absolute; 
+        left: 34.5%;
+    }
+
+    #c3{
+        position: absolute;  
+        left: 67%;
+    }
+}
+
+/* Tableta */
+/* 768px y 991px */
+
+@media (min-width:768px) and (max-width: 991px) {
+    .cajita {    
+        width: 45%;
+        height: 20%;
+    }
+
+    #uno {
+        position: relative;
+        left: 76.5%;
+    }
+    
+    #dos {
+        position: relative;
+        left: 77%;
+    }
+    
+    #tres {
+        position: relative;
+        left: 78.3%;
+    }
+
+    #c1 {
+        position: absolute; 
+        left: 5%;
+        margin-left: 0;
+    }
+    
+    #c2{
+        position: absolute; 
+        left: 50%;
+        margin-left: 15px;
+     }
+    
+    #c3{
+        position: absolute; 
+        left: 5%;
+        top: 35%;
+        width: 92%;
+        margin-left: 0;
+    }
+}
+
+/* Movil */
+/* 768px y 991px */
+
+@media (max-width: 767px) {
+
+    .cajita {    
+        width: 45%;
+        height: 25%;
+    }
+
+    #uno {
+        position: relative;
+        left: 77%;
+    }
+    
+    #dos {
+        position: relative;
+        left: 77%;
+    }
+    
+    #tres {
+        position: relative;
+        left: 77%;
+    }
+
+    #c1 {
+        position: absolute; 
+        left: 5%;
+        width: 92%;
+    }
+    
+    #c2{
+        position: absolute;
+        top: 38.5%; 
+        left: 5%;
+        width: 92%;
+     }
+    
+    #c3{
+        position: absolute; 
+        left: 5%;
+        top: 65%;
+        width: 92%;
+    }
+}
